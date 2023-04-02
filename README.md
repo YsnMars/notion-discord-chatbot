@@ -18,40 +18,40 @@ A Discord chatbot that responds to user questions about a Notion knowledge base.
 
 1. Clone the repository:
 
-\```
+```
 git clone https://github.com/ysnmrsl/notion-discord-chatbot.git
-\```
+```
 
 2. Install the dependencies:
 
-\```
+```
 cd notion-discord-chatbot
 npm install
-\```
+```
 
 3. Create a `.env` file in the root of the project and add your Discord bot token, OpenAI API key and Pinecone API key, index and environement:
 
-\```
+```
 DISCORD_TOKEN=
 OPENAI_API_KEY=
 PINECONE_API_KEY=
 PINECONE_ENVIRONMENT=
 PINECONE_INDEX_NAME=
-\```
+```
 
 5. Place your exported Notion files in `notion-data` folder
 
 6. Run the `pinecone-upsert.js` script to process the Markdown files to create a Pinecone index:
 
-\```
+```
 node scripts/pinecone-upsert.js
-\```
+```
 
 5. Start the Discord chatbot:
 
-\```
-npm start
-\```
+```
+node index.js
+```
 
 ## Contributing
 
