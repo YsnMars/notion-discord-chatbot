@@ -1,0 +1,21 @@
+{
+  "name": "gpt3_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "langchain": "0.0.41",
+    "@pinecone-database/pinecone": "^0.0.10",
+    "glob": "^9.2.1"
+  }
+}
